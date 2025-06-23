@@ -26,8 +26,8 @@ h1{
 } 
 
 .bloc1 img{
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 250px;
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -84,28 +84,31 @@ footer{
         width: 90%;
     }
 
-}
+    .img1 img{ 
+    height: 200px; 
+    width: 100%;
+    }   
 
-
-.bloc1{
+    .bloc1{
     display: flex;
     flex-wrap: wrap;
-}
+    }
 
-.bloc1 img{
- width: 100%;
-}
+   .bloc1 img{ 
+    height: 150px; 
+    width: 100%;
+    }
 
-.img3 img{
-    width: 70%;
-    padding-left: 50px;
-}
-
-
-.bloc3, .img9, .img10{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    padding-left: 30px;
-}
+    .img3 img{
+        width: 70%;
+        padding-left: 50px;
+    }
     
+    .bloc3, .img9, .img10{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    
+}
