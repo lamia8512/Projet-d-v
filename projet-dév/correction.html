@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le développeur</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/correction.css">
 </head>
 <body>
-    <div class="contener">
-        <header class="img1">
-           <img src="assets/img/dev.jpeg" alt="développeur sur son PC">
-        </header>
-
-        <main>
-            <h1>Le développeur </h1>
-                <div class="bloc1">
-                    <p> Un développeur est avant tout un expert des langages
+    <header>
+        <img src="assets/img/dev.jpeg" alt="image d'un développeur">
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="col-l">Le développeur</h1>
+            <div class="col-s">
+                <p>
+                    Un développeur est avant tout un expert des langages
                     informatiques. Il doit donc maîtriser un ou plusieurs langages
                     ainsi que les concepts attenants (par exemple, le concept
                     d'héritage pour un langage orienté objet).
-
-                    <br><br>Bien souvent les connaissances techniques découlent du domaine
+                </p>
+                <p>
+                    Bien souvent les connaissances techniques découlent du domaine
                     d'application. Par exemple dans le cadre de programmation Web (en
                     rapport avec l'Internet) les compétences requises sont spécifiques
                     en langages (HTML, CSS, JavaScript, PHP par exemple) et en
@@ -29,20 +30,23 @@
                     travaillant avec le directeur artistique, le développeur restera
                     le garant des spécificités techniques des divers programmes
                     réalisés par les infographistes.
-
-                    <br><br>D'une manière générale, le développeur doit aussi maîtriser
+                </p>
+                <p>
+                    D'une manière générale, le développeur doit aussi maîtriser
                     l'environnement d'exécution de son programme, que ce soit un
                     système d'exploitation pour un logiciel PC ou un microcontrôleur
                     pour un logiciel embarqué Micrologiciel. C'est cet environnement
                     qui impose des contraintes au logiciel (taille mémoire disponible,
                     vitesse de calcul)
-
-                    <br><br>Rigueur, sens de la méthode, qualités relationnelles, rapidité
+                </p>
+                <p>
+                    Rigueur, sens de la méthode, qualités relationnelles, rapidité
                     d'exécution et facilité de s'adapter à de nouveaux langages sont
                     autant de qualités demandées. Il faut également faire preuve
                     d'autonomie.
-
-                    <br><br>Le développeur peut trouver de nombreux endroits et façons de
+                </p>
+                <p>
+                    Le développeur peut trouver de nombreux endroits et façons de
                     travailler. Il peut être employé par un éditeur de logiciel, une
                     Entreprise de services du numérique (ESN) anciennement SSII ou
                     SS2I, ou même dans une entreprise dont le cœur de métier n'est pas
@@ -50,46 +54,50 @@
                     (DSI). Il est aussi possible de travailler à son compte, en tant
                     que travailleur indépendant. Il est à noter que l'essence même du
                     métier rend certainement plus facile qu'ailleurs le travail à
-                    distance ou télétravail.</P>    
-                    
-
-                    <img src="assets/img/code.jpg" alt="code à l'écran">
-                </div>
-
-                <h2>Media  queries</h2>
-
-                <div class="img3">
-                    <img src="assets/img/mediaQ.jpg" alt="écrans pc et mobile">
-                </div>
-                
-                <div class="bloc2">
-                    <p>Les requêtes média (media queries) permettent de modifier
+                    distance ou télétravail.
+                </p>
+            </div>
+            <div class="col-s">
+                <img src="assets/img/code.jpg" alt="image de code">
+            </div>
+        </section>
+        
+        <section class="container">
+            <h2 class="col-l">Media queris</h2>
+            <div class="col-m">
+                <img src="assets/img/mediaQ.jpg" alt="imager media queries">
+            </div>
+            <div class="col-l">
+                <p>
+                    Les requêtes média (media queries) permettent de modifier
                     l'apparence d'un site ou d'une application en fonction du type
                     d'appareil (impression ou écran par exemple) et de ses
                     caractéristiques (la résolution d'écran ou la largeur de la zone
-                    d'affichage (viewport) par exemple).</p>
-
-                   <p>Une requête média se compose d'un type de média optionnel et d'une
+                    d'affichage (viewport) par exemple).
+                </p>
+                <p>
+                    Une requête média se compose d'un type de média optionnel et d'une
                     ou plusieurs expressions de caractéristiques de média. Plusieurs
                     requêtes peuvent être combinées entre elles grâce à des opérateurs
-                    logiques. Les requêtes média ne sont pas sensibles à la casse.</p>
-
-                    <p>Une requête média vaut true si le type de média correspond à
+                    logiques. Les requêtes média ne sont pas sensibles à la casse.
+                </p>
+                <p>
+                    Une requête média vaut true si le type de média correspond à
                     l'appareil utilisé pour l'affichage du document et si toutes les
                     expressions relatives aux caractéristiques sont vraies. Les requêtes
-                    qui utilisent des types de média inconnus valent toujours false.</p>
-                </div>
-
-                <div class="bloc3">
-                    <img class="img9" src="assets/img/pc.jpeg" alt="PC portable">
-                    <img class="img10" src="assets/img/telephone.jpg" alt="telephone portable">
-                </div>
-
-        </main>
-
-         <footer>
-            <p>©Vera Dos Santos - LePoleS</p>
-        </footer>
-</div>
+                    qui utilisent des types de média inconnus valent toujours false.
+                </p>
+            </div>
+            <div class="col-s">
+                <img src="assets/img/pc.jpeg" alt="photo d'un pc" class="imgFooter">
+            </div>
+            <div class="col-s">
+                <img src="assets/img/telephone.jpg" alt="photo d'un téléphone" class="imgFooter">
+            </div>
+        </section>
+    </main>
+    <footer class="col-l">
+        <p>&copy; 2025 Vera Dos Santos - LePoleS</p>
+    </footer>
 </body>
 </html>
